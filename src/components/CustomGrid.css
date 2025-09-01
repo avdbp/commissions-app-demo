@@ -1,0 +1,89 @@
+.custom-grid {
+  width: 100%;
+  overflow-x: auto;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  background: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.custom-grid-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.custom-grid-header {
+  background: #f8f9fa;
+  color: #495057;
+  font-weight: 600;
+  padding: 12px 8px;
+  text-align: left;
+  border-bottom: 2px solid #dee2e6;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.custom-grid-header a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.custom-grid-header a:hover {
+  text-decoration: underline;
+}
+
+.custom-grid-row {
+  border-bottom: 1px solid #e9ecef;
+  transition: background-color 0.2s ease;
+}
+
+.custom-grid-row:hover {
+  background-color: #f8f9fa;
+}
+
+.custom-grid-row:nth-child(even) {
+  background-color: #fafbfc;
+}
+
+.custom-grid-row:nth-child(even):hover {
+  background-color: #f1f3f4;
+}
+
+.custom-grid-cell {
+  padding: 10px 8px;
+  border-right: 1px solid #e9ecef;
+  vertical-align: middle;
+}
+
+.custom-grid-cell:last-child {
+  border-right: none;
+}
+
+.custom-grid-cell input[type="checkbox"] {
+  margin: 0;
+  cursor: pointer;
+}
+
+.tdImg {
+  text-align: center;
+}
+
+.imgGrid {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .custom-grid {
+    font-size: 12px;
+  }
+  
+  .custom-grid-header,
+  .custom-grid-cell {
+    padding: 8px 4px;
+  }
+}
