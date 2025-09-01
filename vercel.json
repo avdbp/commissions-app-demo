@@ -1,4 +1,4 @@
 {
-  "buildCommand": "npm run build:vercel",
+  "buildCommand": "./build-vercel.sh",
   "outputDirectory": "build"
 }
