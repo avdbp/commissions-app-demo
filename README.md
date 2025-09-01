@@ -1,14 +1,16 @@
-# Commissions App Demo - Migrado a React Puro
+# SSK Commissions Management App
 
-Esta aplicación de gestión de comisiones ha sido migrada exitosamente desde Kendo React a componentes personalizados de React puro, eliminando las marcas de agua del trial de Kendo UI.
+## 🚀 Aplicación de Gestión de Comisiones - SSK
 
-## 🚀 Características
+Esta aplicación de gestión de comisiones ha sido desarrollada para SSK, migrada exitosamente desde Kendo React a componentes personalizados de React puro, eliminando las marcas de agua del trial de Kendo UI.
 
-- **Aplicación de Gestión de Comisiones**: Sistema completo para el seguimiento de comisiones de ventas
-- **Sin dependencias de Kendo UI**: Eliminadas todas las marcas de agua
-- **Componentes personalizados**: Grid, Tabs, Inputs y Selects construidos con React puro
-- **Diseño responsivo**: Optimizado para móviles y tablets
-- **Funcionalidad completa**: Mantiene todas las características originales
+## 🎯 Características Principales
+
+- **Sistema Completo de Gestión de Comisiones**: Dashboard, transacciones, documentos y seguimiento de pagos
+- **Migración Exitosa**: Eliminadas todas las dependencias de Kendo UI y marcas de agua
+- **Componentes Personalizados**: Grid, Tabs, Inputs y Selects construidos con React puro
+- **Diseño Responsivo**: Optimizado para móviles, tablets y desktop
+- **Funcionalidad Completa**: Mantiene todas las características originales
 
 ## 📦 Componentes Personalizados
 
@@ -30,10 +32,10 @@ Esta aplicación de gestión de comisiones ha sido migrada exitosamente desde Ke
 
 ## 🛠️ Tecnologías Utilizadas
 
-- React 18.2.0
-- React Router DOM 6.22.3
-- CSS personalizado
-- Componentes nativos de HTML5
+- **React 18.2.0**
+- **React Router DOM 6.22.3**
+- **CSS personalizado**
+- **Componentes nativos de HTML5**
 
 ## 💼 Funcionalidades de Comisiones
 
@@ -65,17 +67,23 @@ src/
 
 ## 🚀 Instalación y Uso
 
-1. **Instalar dependencias**:
+1. **Clonar el repositorio**:
+   ```bash
+   git clone https://github.com/avdbp/react-demo-ssk.git
+   cd react-demo-ssk
+   ```
+
+2. **Instalar dependencias**:
    ```bash
    npm install
    ```
 
-2. **Ejecutar en desarrollo**:
+3. **Ejecutar en desarrollo**:
    ```bash
    npm start
    ```
 
-3. **Construir para producción**:
+4. **Construir para producción**:
    ```bash
    npm run build
    ```
@@ -99,9 +107,9 @@ Todos los componentes personalizados incluyen:
 ## 📱 Responsive Design
 
 La aplicación está optimizada para:
-- Desktop (1200px+)
-- Tablet (768px - 1199px)
-- Mobile (< 768px)
+- **Desktop** (1200px+)
+- **Tablet** (768px - 1199px)
+- **Mobile** (< 768px)
 
 ## 🔧 Mantenimiento
 
@@ -110,10 +118,29 @@ Para agregar nuevas funcionalidades:
 2. Crear nuevos componentes siguiendo el patrón establecido
 3. Mantener la consistencia de estilos
 
+## 🌐 Deployment
+
+La aplicación está desplegada en Vercel:
+**https://react-demo-ssk.vercel.app/**
+
+## 👨‍💻 Desarrollador
+
+**Alejandro van den Bussche** - [Rocket Media](https://rocketmedia.es)
+- Diseño Gráfico
+- Diseño Web
+- Desarrollo Web
+
 ## 📄 Licencia
 
 Este proyecto es de código abierto y no requiere licencias comerciales.
 
-## 🔄 Cambio de Nombre
+## 🔄 Historial de Cambios
 
-Este proyecto fue originalmente llamado "KendoDemo" y ha sido renombrado a "Commissions App Demo" para reflejar mejor su propósito como aplicación de gestión de comisiones. La migración de Kendo React a componentes personalizados se completó exitosamente, eliminando todas las dependencias comerciales y marcas de agua.
+- **Migración Completa**: De Kendo React a React puro
+- **Eliminación de Dependencias**: Removidas todas las librerías comerciales
+- **Optimización**: Mejor rendimiento y menor tamaño de bundle
+- **Mejoras de UX**: Interfaz más moderna y accesible
+
+---
+
+**Desarrollado para SSK** - Sistema completo de gestión de comisiones de ventas
