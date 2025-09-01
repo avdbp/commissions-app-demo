@@ -69,8 +69,8 @@ src/
 
 1. **Clonar el repositorio**:
    ```bash
-   git clone https://github.com/avdbp/react-demo-ssk.git
-   cd react-demo-ssk
+   git clone https://github.com/avdbp/commissions-app-demo.git
+   cd commissions-app-demo
    ```
 
 2. **Instalar dependencias**:
