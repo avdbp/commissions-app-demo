@@ -1,14 +1,11 @@
 {
-  "buildCommand": "npm run build:vercel",
-  "outputDirectory": "build",
-  "framework": "create-react-app",
-  "installCommand": "npm install",
   "builds": [
     {
       "src": "package.json",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "build"
+        "distDir": "build",
+        "buildCommand": "npm run build:vercel"
       }
     }
   ]
